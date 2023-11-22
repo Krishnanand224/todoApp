@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: "baloo_paaji_2regular";
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "baloo_paaji_2regular";
+    src: url("./components/assets/fonts/baloopaaji2-regular-webfont.woff2")
+            format("woff2"),
+        url("./components/assets/fonts/baloopaaji2-regular-webfont.woff")
+            format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+div#home{
+}
+div.wrapper{
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+div.wrapper h1{
+    font-size: 50px;
+    padding: 45px 0;
+    text-align: center;
+}
+div.wrapper h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+div.wrapper ul{
+    list-style: none;
+
+    margin-left: 20px;
+}
+div.wrapper ul li{
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 90%;
+}
+div.round{
+    border: 2px solid #555;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    margin-right: 12px;
+    position: relative;
+}
+ div.bottom div.round{
+    border: 2px solid #2ec999;
+}
+div.bottom ul li{
+    color:#2ec999;
+}
+div.bottom ul li div.icons{
+    display: flex;
+
+}
+div.bottom ul li div.icons img{
+    margin-right: 20px;
+    
+}
+div.bottom ul li div.icons img:last-child{
+    margin-right: 0;
+    
+}
+div.wrapper ul li div.content{
+    display: flex;
+    align-items: center;
+
+}
+div.wrapper ul li div.content img{
+    position: absolute;
+    top: 4px;
+    left: 2px;
+    width: 17px;
+}
+div.wrapper ul li img{
+    display: block;
+}
+div.wrapper div.input-field{
+    display: flex;
+    width: 90%;
+    margin-left: 20px;
+}
+div.wrapper div.input-field input{
+    width: 70%;
+    padding:10px 30px ;
+    font-size: 15px;
+    background: url("components/assets/plus.svg")no-repeat;
+    background-position: 3%;
+    background-size: 15px;
+    border: 1px solid #555;
+    border-radius: 5px 0 0 5px;
+}
+div.wrapper div.input-field button{
+    width: 30%;
+    padding:10px 20px ;
+    font-weight: bold;
+    background: #040241;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+div.bottom{
+    margin-top: 50px;
+}
